@@ -1,0 +1,42 @@
+//
+// Prefix header for all source files of the 'GDZhiFaJianGuanSystem' target in the 'GDZhiFaJianGuanSystem' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <CoreData/CoreData.h>
+    #import "AppDelegate.h"
+    #import "WebServiceHandler.h"
+#endif
+
+#define MYAPPDELEGATE (AppDelegate *)[[UIApplication sharedApplication] delegate]
+
+#define MAINDISPATCH(block) dispatch_async(dispatch_get_main_queue(), block)
+
+#define ALLORGID @"CurrentAllOrgID"
+
+#define USERNAME @"CurrentUserName"
+
+#define ISREMEMBERED @"IsRemembered"
+#define ORGKEY @"CurrentOrgID"
+#define USERKEY @"CurrentUserID"
+#define USERPASSWORD @"CurrentPassword"
+
+#define IOS7_OR_LATER   ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
+
+#define BBS_LOCATION @"/jsprun"
+
+#define SERVICES_LOCATION @"/services/PdaUpload"
+
+
+#define DATA_IS_EMPTY @"没有数据"
+#define SOAP_SERVER_RESPONSE_ERROR @"无法连接到服务器，请检查网络连接"
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3D8C9649-7517-4D86-89DE-8EE8295DF56F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GDZhiFaJianGuanSystem</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CC57BD44-8ED5-4476-92EC-CDE9C6259168</key>
+		<string>http://192.168.0.243/gdzhifajianguansystem.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GDZhiFaJianGuanSystem.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CC57BD44-8ED5-4476-92EC-CDE9C6259168</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.0.243/gdzhifajianguansystem.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC57BD44-8ED5-4476-92EC-CDE9C6259168</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC57BD44-8ED5-4476-92EC-CDE9C6259168</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gdzhifajianguansystem</string>
+		</dict>
+	</array>
+</dict>
+</plist>

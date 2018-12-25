@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AllCaseModel" representedClassName="AllCaseModel" syncable="YES">
+        <attribute name="anjuan_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="automobile_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="baomi_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caseqingkuang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="casereasonAuto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="citizen_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="citizen_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="citizen_tel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="danganshi_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_caseend" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="execute_circs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_pay_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="happen_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="limit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pay_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="punish_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quanzong_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="road_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_end_display" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_start_display" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AllPermitModel" representedClassName="AllPermitModel" syncable="YES">
+        <attribute name="admissible_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="anjuan_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="applicant_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="applicant_flag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="applicant_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="baomi_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countychbname1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countychbtime1" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="countychbyijian1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countyjigname2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countyjigtime2" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="countyjigyijian2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countyledname3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countyledtime3" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="countyledyijian3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="danganshi_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_step" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="importent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legal_spokesman" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="limit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paysum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permission_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quanzong_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reason_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AppSignModel" representedClassName="AppSignModel" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nextUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="signDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="signName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="signOption" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CaseInfoModel" representedClassName="CaseInfoModel" syncable="YES">
+        <attribute name="anjuan_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="badcar_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="badcar_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="badwound_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="baomi_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="beikao_remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_from_department" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_from_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_from_inform" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_from_inspection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_from_other" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_from_party" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_mode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_reality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_reason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_reason_decide" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_style" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_type_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_yearno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caseqingkuang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="casereason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="casetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cbren_opinion_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="chengbandate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="chengbanyijiang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="citizen_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk1_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk2_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk3_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk4_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clerk5_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cover_page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cover_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="damageplace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="danganshi_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_caseend" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date_casereg" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date_underwrite" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="death_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endcase_flag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="execute_circs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_pay_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fleshwound_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuzheyijian" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuzheyijian_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fz_opinion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fz_opinion_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fz_opinion_man" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="happen_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="idea_police" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="importent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_from_civilaction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latefee_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leader_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="limit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkaddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkman" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linktel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organization_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outwardstatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overrunname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pagenum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pay_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peccancy_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="project_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="punish_sum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quanzong_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recorderName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roadsegment_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="side" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transact_decision" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weater" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zfjg_opinion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zfjg_opinion_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="zfjg_opinion_man" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CurrentTaskModel" representedClassName="CurrentTaskModel" syncable="YES">
+        <attribute name="app_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="applicant_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="current_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentUserAccount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_cut" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="importent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUserAccount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nodeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nodeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="project_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="signDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="signName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="signOption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeout" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yijian1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yijian2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EmployeeInfoModel" representedClassName="EmployeeInfoModel" syncable="YES">
+        <attribute name="academic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appearance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cardID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="depart_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employee_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enforce_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="im_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marriage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nativePlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderdesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organization_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rewards_punishments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roadwork_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speciality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="work_start_date" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="InspectionModel" representedClassName="InspectionModel" syncable="YES">
+        <attribute name="carcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_inspection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delivertext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="description_inspection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duty_leader" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inspection_area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inspection_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inspection_line" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inspection_milimetres" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inspection_place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inspectionor_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdeliver" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isnew" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lu_opinion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lu_opinion_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="luzhen_principal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organization_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="p_opinion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="p_opinion_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="principal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recorder_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roadsegment_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="take_measure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time_start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weather" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LawItemsModel" representedClassName="LawItemsModel" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="law_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lawitem_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lawitem_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LawsModel" representedClassName="LawsModel" syncable="YES">
+        <attribute name="caption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dept" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="law_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="put_flag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MessageModel" representedClassName="MessageModel" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="has_file" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_readed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reader" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="send_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sender_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sender_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sender_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_code" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrgArticleModel" representedClassName="OrgArticleModel" syncable="YES">
+        <attribute name="belowOrg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keywords" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgIds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgnames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publicize_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="read_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readedOrg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderAccount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderPerson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="side_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_code" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrgInfoModel" representedClassName="OrgInfoModel" syncable="YES">
+        <attribute name="belongtoOrgCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lowerOrgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_tpye" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgShortName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrgInfoSimpleModel" representedClassName="OrgInfoSimpleModel" syncable="YES">
+        <attribute name="belongtoOrgCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lowerOrgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_tpye" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgShortName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PermitExpireModel" representedClassName="PermitExpireModel" syncable="YES">
+        <attribute name="app_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="applicant_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_diff" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="date_end" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date_step" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_postponed" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="permission_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="project_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="serialnumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="warningLevel" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ReportAndAttechmentModel" representedClassName="ReportAndAttechmentModel" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="importent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="project_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RoadAssetPriceModel" representedClassName="RoadAssetPriceModel" syncable="YES">
+        <attribute name="big_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="damage_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="depart_num" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="standard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RoadBuildControlModel" representedClassName="RoadBuildControlModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buildqingkuang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caseno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chuliqingkuang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dangshiren" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="danwei" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endornot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gonglizhuanghao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="happendate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noroadmark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numbers" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photourl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roadfanwei" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shifouluxiang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wiremark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="writedate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="xianbie" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RoadEngrossModel" representedClassName="RoadEngrossModel" syncable="YES">
+        <attribute name="accessory_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="approve_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="build_structure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="built_area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="built_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="built_distance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="built_length" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="case_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_end" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date_start" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="deal_with" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engross_built_info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engross_info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engross_space" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engross_style" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gutter_distance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inroad_info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkman_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkman_phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="owner_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="removeDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="roadSegment_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serialno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="support_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearno" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RoadEngrossPriceModel" representedClassName="RoadEngrossPriceModel" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RoadModel" representedClassName="RoadModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delflag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place_start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="station_start" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rpt_statistics_hisModel" representedClassName="Rpt_statistics_hisModel" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="beginsum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="endsum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stattypes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typenames" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rpt_statisticsModel" representedClassName="Rpt_statisticsModel" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="beginsum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endsum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stattypes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typenames" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StatisticsLowerOrgModel" representedClassName="StatisticsLowerOrgModel" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="num" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orgShortName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serialnumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="StatisticsNewModel" representedClassName="StatisticsNewModel" syncable="YES">
+        <attribute name="dateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="money_count" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="money_fact" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="names" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_begin" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="num_end" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="num_notend" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="typenames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="types" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TaskSimpleModel" representedClassName="TaskSimpleModel" syncable="YES">
+        <attribute name="current_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="handle_orgid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="handle_orgname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="handle_username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="next_task_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="node_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="node_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previous_task_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="project_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="return_reson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeout" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_account" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfoModel" representedClassName="UserInfoModel" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="delFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dept_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employee_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isadmin" optional="YES" attributeType="Boolean" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="marriage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfoSimpleModel" representedClassName="UserInfoSimpleModel" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isadmin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AllCaseModel" positionX="0" positionY="0" width="128" height="465"/>
+        <element name="AllPermitModel" positionX="0" positionY="0" width="128" height="540"/>
+        <element name="AppSignModel" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="CaseInfoModel" positionX="0" positionY="0" width="128" height="1425"/>
+        <element name="CurrentTaskModel" positionX="0" positionY="0" width="128" height="420"/>
+        <element name="EmployeeInfoModel" positionX="0" positionY="0" width="128" height="510"/>
+        <element name="InspectionModel" positionX="0" positionY="0" width="128" height="510"/>
+        <element name="LawItemsModel" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="LawsModel" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="MessageModel" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="OrgArticleModel" positionX="0" positionY="0" width="128" height="315"/>
+        <element name="OrgInfoModel" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="OrgInfoSimpleModel" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="PermitExpireModel" positionX="160" positionY="192" width="128" height="240"/>
+        <element name="ReportAndAttechmentModel" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="RoadAssetPriceModel" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="RoadBuildControlModel" positionX="0" positionY="0" width="128" height="360"/>
+        <element name="RoadEngrossModel" positionX="0" positionY="0" width="128" height="585"/>
+        <element name="RoadEngrossPriceModel" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="RoadModel" positionX="0" positionY="0" width="128" height="180"/>
+        <element name="Rpt_statistics_hisModel" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="Rpt_statisticsModel" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="StatisticsLowerOrgModel" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="StatisticsNewModel" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="TaskSimpleModel" positionX="0" positionY="0" width="128" height="285"/>
+        <element name="UserInfoModel" positionX="0" positionY="0" width="128" height="315"/>
+        <element name="UserInfoSimpleModel" positionX="0" positionY="0" width="128" height="150"/>
+    </elements>
+</model>
